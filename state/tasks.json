@@ -1,115 +1,82 @@
 {
-  "project": "Shotgun Beer Company",
-  "description": "Beer company featuring cans with a secondary 'shotgun' opening on the side.",
-  "dispatch_version": "001",
+  "project": "SIDESHOT Beer Co.",
+  "description": "SIDESHOT Beer Co. – Full brand development, product line, and launch (digital-first). Side Quest secondary language. Continuous Brand & Creative Agent cycle.",
+  "dispatch_version": "002",
   "created": "2026-08-19T20:47:00-04:00",
-  "status": "intake_complete",
+  "updated": "2026-08-20T09:05:00-04:00",
+  "status": "active_cycle",
   "agents": {
-    "DISPATCH": "Task orchestration, state management, logistics, tool routing, deployment coordination",
-    "ANALYTICS": "Market research, KPIs, feasibility numbers, competitor analysis, cycle reports",
-    "BRAND": "Naming, visual identity, logo, packaging/can design concepts, brand voice",
-    "Grok": "Strategy lead, product concept (mechanism), final synthesis"
+    "DISPATCH": "Intake, decomposition, task graph, state management, Linear/GitHub coordination. Nothing moves without DISPATCH entry.",
+    "ANALYTICS": "Market, KPIs, site metrics, success criteria definition, conversion baselines",
+    ". BRAND": "Brand assets, messaging, visual system, merch concepts, pillar expression, Side Quest language",
+    "Grok": "Team leader, final synthesis, product strategy"
   },
+  "current_request": "Produce one concrete improvement or new asset recommendation for the brand system or merch line. Reference pillars: Ready, Ritual, Quest, Responsibility. Keep Side Quest secondary language strong.",
   "task_graph": [
     {
-      "id": "T001",
-      "title": "Market research & sizing",
-      "description": "Craft beer market size, can innovation trends, shotgun drinking culture, competitors, target demo interest proxies.",
-      "assignee": "ANALYTICS",
-      "status": "assigned",
+      "id": "T012",
+      "title": "Intake & decompose current Brand & Creative request",
+      "description": "Break request into atomic tasks, assign agents, write to state/tasks.json.",
+      "assignee": "DISPATCH",
+      "status": "completed",
       "dependencies": [],
+      "priority": "critical"
+    },
+    {
+      "id": "T013",
+      "title": "Gather Linear SIDESHOT context + open issues",
+      "description": "Pull project status, SMI-145 to SMI-151, docs (Founder Cycle, feasibility).",
+      "assignee": "DISPATCH",
+      "status": "completed",
+      "dependencies": ["T012"],
       "priority": "high"
     },
     {
-      "id": "T002",
-      "title": "Manufacturing & legal feasibility",
-      "description": "Cost estimates for custom cans with side opening mechanism, safety, alcohol regulations, FDA/TTB notes, patent risk.",
-      "assignee": "ANALYTICS",
-      "status": "assigned",
-      "dependencies": [],
+      "id": "T014",
+      "title": "Audit live site for brand consistency",
+      "description": "https://sideshot-beer.vercel.app — messaging, pillars, Side Quest language, visual, metrics, CTAs.",
+      "assignee": "DISPATCH + ANALYTICS + . BRAND",
+      "status": "completed",
+      "dependencies": ["T012"],
       "priority": "high"
     },
     {
-      "id": "T003",
-      "title": "Define success metrics & one-page cycle report template",
-      "description": "Pre-launch, launch (30d), ongoing KPIs: traffic, conversion, engagement, CAC/LTV, sales projections.",
-      "assignee": "ANALYTICS",
-      "status": "assigned",
-      "dependencies": [],
+      "id": "T015",
+      "title": "Review merch / assets status",
+      "description": "SMI-150 Printify merch SKUs, SMI-151 locate existing brand assets.",
+      "assignee": ". BRAND + DISPATCH",
+      "status": "completed",
+      "dependencies": ["T013"],
       "priority": "medium"
     },
     {
-      "id": "T004",
-      "title": "Brand naming options",
-      "description": "Generate 3-5 strong brand name candidates + rationale + domain availability notes.",
-      "assignee": ". BRAND",
-      "status": "assigned",
-      "dependencies": [],
+      "id": "T016",
+      "title": "Define success criteria for new asset",
+      "description": "Traffic, plays, conversion, sales proxy, pillar coverage.",
+      "assignee": "ANALYTICS",
+      "status": "completed",
+      "dependencies": ["T014"],
       "priority": "high"
     },
     {
-      "id": "T005",
-      "title": "Visual identity & logo concepts",
-      "description": "Logo directions, color palette, typography, brand voice guidelines.",
-      "assignee": ". BRAND",
-      "status": "pending",
-      "dependencies": ["T004"],
-      "priority": "high"
+      "id": "T017",
+      "title": "Propose one concrete improvement / new asset",
+      "description": "Specific, actionable recommendation tied to Ready/Ritual/Quest/Responsibility + Side Quest language. Candidate: Ritual Kit merch (koozie + tee + hangtag).",
+      "assignee": ". BRAND (lead) + Grok",
+      "status": "in_progress",
+      "dependencies": ["T014", "T015", "T016"],
+      "priority": "critical"
     },
     {
-      "id": "T006",
-      "title": "Can & packaging design concepts",
-      "description": "Visualize secondary side shotgun opening (pull-tab, score, or patented-style mechanism), full can artwork mockups, packaging.",
-      "assignee": ". BRAND",
-      "status": "pending",
-      "dependencies": ["T004", "T005"],
-      "priority": "high"
-    },
-    {
-      "id": "T007",
-      "title": "Product mechanism concept",
-      "description": "Define how the secondary side opening works safely and reliably (engineering concept, user flow for shotgunning).",
-      "assignee": "Grok",
-      "status": "assigned",
-      "dependencies": [],
-      "priority": "high"
-    },
-    {
-      "id": "T008",
-      "title": "Overall strategy & positioning",
-      "description": "Target audience, value prop, go-to-market outline, pricing hypotheses.",
+      "id": "T018",
+      "title": "Final synthesis & deliverable",
+      "description": "Grok writes the one recommendation on behalf of the team.",
       "assignee": "Grok",
       "status": "pending",
-      "dependencies": ["T001", "T004"],
-      "priority": "high"
-    },
-    {
-      "id": "T009",
-      "title": "Website / digital presence plan & deploy",
-      "description": "Landing page concept, waitlist, ecom skeleton. Coordinate Vercel/GitHub deploy.",
-      "assignee": "DISPATCH",
-      "status": "pending",
-      "dependencies": ["T004", "T005"],
-      "priority": "medium"
-    },
-    {
-      "id": "T010",
-      "title": "Payments & logistics skeleton",
-      "description": "Stripe product/setup notes, fulfillment high-level.",
-      "assignee": "DISPATCH",
-      "status": "pending",
-      "dependencies": ["T009"],
-      "priority": "low"
-    },
-    {
-      "id": "T011",
-      "title": "Final synthesis & deliverable to user",
-      "description": "Compile brand, product concept, market data, deployment assets into cohesive response.",
-      "assignee": "Grok",
-      "status": "pending",
-      "dependencies": ["T001", "T002", "T004", "T005", "T006", "T007", "T008", "T009"],
+      "dependencies": ["T017"],
       "priority": "critical"
     }
   ],
-  "notes": "Nothing moves without DISPATCH entry. Update this file on status changes. Repo: https://github.com/omgawdmadeit1/shotgun-beer-company"
+  "legacy_tasks": ["T001-T011 from prior cycle — see history"],
+  "notes": "Nothing moves without DISPATCH entry. Update this file on status changes. Canonical Linear: SIDESHOT. Live site: https://sideshot-beer.vercel.app. Repo: https://github.com/omgawdmadeit1/shotgun-beer-company"
 }
