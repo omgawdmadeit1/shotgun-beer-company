@@ -1,9 +1,9 @@
 {
   "project": "SIDESHOT Beer Co.",
   "description": "SIDESHOT Beer Co. – Full brand development, product line, and launch (digital-first). Side Quest secondary language. Continuous Brand & Creative Agent cycle.",
-  "dispatch_version": "002",
+  "dispatch_version": "003",
   "created": "2026-08-19T20:47:00-04:00",
-  "updated": "2026-08-20T09:05:00-04:00",
+  "updated": "2026-08-21T09:15:00-04:00",
   "status": "active_cycle",
   "agents": {
     "DISPATCH": "Intake, decomposition, task graph, state management, Linear/GitHub coordination. Nothing moves without DISPATCH entry.",
@@ -20,16 +20,18 @@
       "assignee": "DISPATCH",
       "status": "completed",
       "dependencies": [],
-      "priority": "critical"
+      "priority": "critical",
+      "completed_at": "2026-08-21T09:08:00-04:00"
     },
     {
       "id": "T013",
       "title": "Gather Linear SIDESHOT context + open issues",
-      "description": "Pull project status, SMI-145 to SMI-151, docs (Founder Cycle, feasibility).",
+      "description": "Pull project status. Note: mcp.porteden.com Linear auth failed for all agents.",
       "assignee": "DISPATCH",
-      "status": "completed",
+      "status": "blocked",
       "dependencies": ["T012"],
-      "priority": "high"
+      "priority": "high",
+      "notes": "Auth fail. Proceeded with GitHub + site data."
     },
     {
       "id": "T014",
@@ -38,16 +40,18 @@
       "assignee": "DISPATCH + ANALYTICS + . BRAND",
       "status": "completed",
       "dependencies": ["T012"],
-      "priority": "high"
+      "priority": "high",
+      "findings": "Strong Side Quest, Ready, Responsibility. Ritual gap (zero explicit mentions). No full visual system extractable. Merch = SafeShot only."
     },
     {
       "id": "T015",
       "title": "Review merch / assets status",
-      "description": "SMI-150 Printify merch SKUs, SMI-151 locate existing brand assets.",
+      "description": "Repo assets, Printify mentions, existing brand files.",
       "assignee": ". BRAND + DISPATCH",
       "status": "completed",
       "dependencies": ["T013"],
-      "priority": "medium"
+      "priority": "medium",
+      "findings": "Repo has analytics + state only. Phase 1 = SafeShot tool + branded standard cans. No apparel yet."
     },
     {
       "id": "T016",
@@ -56,16 +60,18 @@
       "assignee": "ANALYTICS",
       "status": "completed",
       "dependencies": ["T014"],
-      "priority": "high"
+      "priority": "high",
+      "criteria": "Must lift waitlist conversion, close Ritual gap, keep Side Quest secondary, cover all 4 pillars, actionable in one sprint."
     },
     {
       "id": "T017",
       "title": "Propose one concrete improvement / new asset",
-      "description": "Specific, actionable recommendation tied to Ready/Ritual/Quest/Responsibility + Side Quest language. Candidate: Ritual Kit merch (koozie + tee + hangtag).",
+      "description": "Specific, actionable recommendation tied to Ready/Ritual/Quest/Responsibility + Side Quest language.",
       "assignee": ". BRAND (lead) + Grok",
       "status": "in_progress",
       "dependencies": ["T014", "T015", "T016"],
-      "priority": "critical"
+      "priority": "critical",
+      "candidate": "SIDESHOT Ritual Card hangtag/insert for SafeShot + cans. Explicitly maps the 4 pillars as ritual sequence. Front: READY → RITUAL → QUEST → RESPONSIBILITY path. Back: Side Quest language + instructions + QR. Zero inventory risk, Phase 1 ready."
     },
     {
       "id": "T018",
@@ -75,8 +81,26 @@
       "status": "pending",
       "dependencies": ["T017"],
       "priority": "critical"
+    },
+    {
+      "id": "T019",
+      "title": "Polish Ritual Card copy, visual specs, and pillar mapping",
+      "description": "Finalize exact messaging, layout description, production notes for the recommended asset.",
+      "assignee": ". BRAND",
+      "status": "pending",
+      "dependencies": ["T017"],
+      "priority": "high"
+    },
+    {
+      "id": "T020",
+      "title": "Update state/tasks.json with final statuses",
+      "description": "DISPATCH writes completed graph after Grok synthesis.",
+      "assignee": "DISPATCH",
+      "status": "in_progress",
+      "dependencies": ["T018"],
+      "priority": "medium"
     }
   ],
   "legacy_tasks": ["T001-T011 from prior cycle — see history"],
-  "notes": "Nothing moves without DISPATCH entry. Update this file on status changes. Canonical Linear: SIDESHOT. Live site: https://sideshot-beer.vercel.app. Repo: https://github.com/omgawdmadeit1/shotgun-beer-company"
+  "notes": "Nothing moves without DISPATCH entry. Update this file on status changes. Canonical Linear: SIDESHOT (auth currently failed). Live site: https://sideshot-beer.vercel.app. Repo: https://github.com/omgawdmadeit1/shotgun-beer-company. Current cycle focus: Ritual pillar activation via low-risk Phase 1 asset."
 }
