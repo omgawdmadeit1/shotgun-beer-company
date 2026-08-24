@@ -1,9 +1,9 @@
 {
   "project": "SIDESHOT Beer Co.",
   "description": "SIDESHOT Beer Co. – Full brand development, product line, and launch (digital-first). Side Quest secondary language. Continuous Brand & Creative Agent cycle.",
-  "dispatch_version": "004",
+  "dispatch_version": "005",
   "created": "2026-08-19T20:47:00-04:00",
-  "updated": "2026-08-23T09:08:00-04:00",
+  "updated": "2026-08-24T09:20:00-04:00",
   "status": "active_cycle",
   "agents": {
     "DISPATCH": "Intake, decomposition, task graph, state management, Linear/GitHub coordination. Nothing moves without DISPATCH entry.",
@@ -11,76 +11,67 @@
     ". BRAND": "Brand assets, messaging, visual system, merch concepts, pillar expression, Side Quest language",
     "Grok": "Team leader, final synthesis, product strategy"
   },
-  "current_request": "Produce one concrete improvement or new asset recommendation for the brand system or merch line. Be specific and actionable. Reference the current brand pillars: Ready, Ritual, Quest, Responsibility. Keep the Side Quest secondary language strong. Check live site https://sideshot-beer.vercel.app.",
+  "current_request": "Today, produce one concrete improvement or new asset recommendation for the brand system or merch line. Be specific and actionable. Reference the current brand pillars: Ready, Ritual, Quest, Responsibility. Keep the Side Quest secondary language strong. Check live site https://sideshot-beer.vercel.app.",
   "task_graph": [
     {
-      "id": "T021",
-      "title": "Intake & decompose 2026-08-23 Brand request",
+      "id": "T028",
+      "title": "Intake & decompose 2026-08-24 Brand request",
       "description": "Break request into atomic tasks, assign agents, write to state/tasks.json. Nothing moves without DISPATCH entry.",
       "assignee": "DISPATCH",
       "status": "completed",
       "dependencies": [],
       "priority": "critical",
-      "completed_at": "2026-08-23T09:10:00-04:00"
+      "completed_at": "2026-08-24T09:20:00-04:00"
     },
     {
-      "id": "T022",
-      "title": "Audit live site for brand consistency and pillar gaps",
-      "description": "https://sideshot-beer.vercel.app — messaging, Side Quest language, Ready/Ritual/Quest/Responsibility coverage, visual system, merch presence.",
+      "id": "T029",
+      "title": "Re-audit live site for brand consistency and pillar gaps",
+      "description": "https://sideshot-beer.vercel.app — confirm messaging, Side Quest language, Ready/Ritual/Quest/Responsibility coverage, visual system, merch presence.",
       "assignee": "ANALYTICS + . BRAND + DISPATCH",
       "status": "completed",
-      "dependencies": ["T021"],
+      "dependencies": ["T028"],
       "priority": "high",
-      "findings": "Strong Side Quest secondary language, Ready explicit, Responsibility present (21+). Ritual completely under-activated (zero explicit mentions). Quest present but can be deepened. No merch section live beyond SafeShot tool. Visual: black bg, red-orange gradient #ff2d2d-#ff8a00. Phase 1: SafeShot + branded standard cans."
+      "findings": "No overnight changes. Strong Side Quest secondary language. Ready explicit. Responsibility present (21+). Ritual under-activated. Quest present. Visual: black bg, red-orange #ff2d2d-#ff8a00. Phase 1: SafeShot + branded standard cans. Pillars not named explicitly."
     },
     {
-      "id": "T023",
+      "id": "T030",
       "title": "Generate one concrete merch / brand asset recommendation",
       "description": "Specific, actionable concept that activates all four pillars while keeping Side Quest language dominant.",
       "assignee": ". BRAND",
       "status": "completed",
-      "dependencies": ["T022"],
+      "dependencies": ["T029"],
       "priority": "critical",
-      "output": "Side Quest Ritual Kit (Phase-1 Merch Drop): Branded SafeShot™ tool + limited 4-card Quest Card deck (one per pillar) + soft can cooler sleeve printed with 'Open the Side. Own the Moment.' Messaging locks Ready/Ritual/Quest/Responsibility. Bundle as $29-39 waitlist exclusive. Add Ritual Kit section to site."
+      "output": "Side Quest Pillar Badge (circular embroidered patch or vinyl sticker Phase-1): Black field, red-orange SIDESHOT can silhouette with clean side opening, clockwise ring of four icons (READY open-circle, RITUAL shotgun-motion, QUEST path/diamond, RESPONSIBILITY 21+ shield/lock). Outer type: Start the Side Quest / Own the Moment. Hangtag: ‘Every can is a Side Quest. Wear the code.’ Back: one-page cycle checkboxes for the four pillars. Bundle with SafeShot or $8-15 standalone."
     },
     {
-      "id": "T024",
+      "id": "T031",
       "title": "Layer measurable KPIs and define 'working'",
       "description": "Traffic, conversion, waitlist lift, engagement targets. One-page cycle report style. Pre-launch success criteria.",
       "assignee": "ANALYTICS",
-      "status": "in_progress",
-      "dependencies": ["T023"],
+      "status": "completed",
+      "dependencies": ["T030"],
       "priority": "high",
-      "notes": "Site claims only (3.8s drain, 99.8% integrity etc). No public traffic data. Need targets for waitlist conversion, site section engagement, add-to-waitlist rate."
+      "output": "Pre-launch ‘working’: Merch section views ≥20-25% of site traffic days 1-7; UGC ≥1 per 10 units; Sales ≥250 units or 15-20% waitlist in 14-21 days (60%+ bundled); Visitor→merch interest ≥8%, waitlist→purchase ≥12-15%. Fallback to sticker set if embroidered COGS high."
     },
     {
-      "id": "T025",
-      "title": "Refine recommendation with visual system + pillar mapping",
-      "description": "Confirm color language, copy polish, production notes, Linear ticket readiness.",
-      "assignee": ". BRAND + Grok",
-      "status": "in_progress",
-      "dependencies": ["T023"],
-      "priority": "high"
-    },
-    {
-      "id": "T026",
+      "id": "T032",
       "title": "Final synthesis of one concrete recommendation",
       "description": "Grok writes the single best recommendation on behalf of the team, incorporating all inputs.",
       "assignee": "Grok",
-      "status": "pending",
-      "dependencies": ["T024", "T025"],
+      "status": "in_progress",
+      "dependencies": ["T030", "T031"],
       "priority": "critical"
     },
     {
-      "id": "T027",
+      "id": "T033",
       "title": "Update state/tasks.json with final statuses",
       "description": "DISPATCH closes the graph after Grok deliverable.",
       "assignee": "DISPATCH",
       "status": "pending",
-      "dependencies": ["T026"],
+      "dependencies": ["T032"],
       "priority": "medium"
     }
   ],
-  "prior_cycle": "T012-T020 (2026-08-21) — Ritual Card hangtag concept evolved into fuller Ritual Kit",
-  "notes": "Nothing moves without DISPATCH entry. Canonical repo: https://github.com/omgawdmadeit1/shotgun-beer-company. Live site: https://sideshot-beer.vercel.app. Linear SIDESHOT auth currently failing via mcp.porteden.com. Current cycle focus: Activate Ritual pillar via low-risk Phase 1 merch asset (Ritual Kit) while reinforcing all pillars and Side Quest language."
+  "prior_cycle": "T021-T027 (2026-08-23) — Ritual Kit concept; evolved today into Pillar Badge for cleaner Phase-1 execution",
+  "notes": "Nothing moves without DISPATCH entry. Canonical repo: https://github.com/omgawdmadeit1/shotgun-beer-company. Live site: https://sideshot-beer.vercel.app. Linear SIDESHOT auth currently failing via mcp.porteden.com. Current cycle focus: Explicitly name and physicalize the four pillars via a single collectible badge/patch asset while protecting Side Quest as dominant secondary language. Authorized for Grok final synthesis."
 }
