@@ -1,0 +1,21 @@
+{
+  "part_number": "SS-001",
+  "revision": "A0",
+  "material": "6061-T6 Aluminum",
+  "units": "mm",
+  "qty_primary": 50,
+  "qty_bid": 200,
+  "step_standard": "AP214 (Open CASCADE)",
+  "single_body": true,
+  "metrics": {
+    "xmin": -41.002,
+    "xmax": 41.001,
+    "ymin": -13.001,
+    "ymax": 13.001,
+    "zmin": -12.876,
+    "zmax": 3.177,
+    "volume_mm3": 13259.52,
+    "mass_g_6061": 35.8,
+    "solid_count": 1
+  }
+}
