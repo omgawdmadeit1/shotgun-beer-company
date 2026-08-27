@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/sideshot-site/index.html" },
+    { "source": "/sideshot", "destination": "/sideshot-site/index.html" },
+    { "source": "/api/sideshot/waitlist", "destination": "/api/waitlist" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}
