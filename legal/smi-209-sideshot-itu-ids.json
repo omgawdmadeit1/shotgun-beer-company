@@ -1,0 +1,38 @@
+{
+  "issue": "SMI-209",
+  "mark": "SIDESHOT",
+  "markType": "standard-character",
+  "basis": "1b",
+  "ownerInstruction": "operating-entity-or-founder-then-assign",
+  "doNotFile": ["SIDE QUEST", "THE SIDE QUEST"],
+  "governmentFeeUsd": 700,
+  "classes": [
+    {
+      "nice": 32,
+      "pickerOnly": true,
+      "idManualEntries": [
+        "Beer",
+        "Ale",
+        "Lager",
+        "Stout",
+        "Porter",
+        "Craft beer",
+        "Malt liquor"
+      ]
+    },
+    {
+      "nice": 25,
+      "pickerOnly": true,
+      "idManualEntries": [
+        "T-shirts",
+        "Hats",
+        "Hooded sweatshirts",
+        "Baseball caps"
+      ]
+    }
+  ],
+  "watch": [
+    { "mark": "SIDE QUEST", "serial": "99944596" },
+    { "mark": "THE SIDE QUEST", "registration": "5017598" }
+  ]
+}
