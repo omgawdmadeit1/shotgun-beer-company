@@ -1,0 +1,115 @@
+{
+  "$schema_note": "Operator field map for USPTO Trademark Center. Counsel must re-select IDs in the live ID Manual picker at filing. Not a filed application.",
+  "linear_issue": "SMI-210",
+  "packet_date": "2026-08-27",
+  "sister_issue": "SMI-209",
+  "clearance_memo": "legal/smi-144-trademark-patent-clearance.md",
+  "application": {
+    "mark": "SAFESHOT",
+    "mark_type": "standard_character",
+    "drawing_code": "4",
+    "register": "principal",
+    "filing_basis": "1b",
+    "filing_basis_label": "Section 1(b) intent-to-use",
+    "vehicle": "Trademark Center",
+    "apply_url": "https://www.uspto.gov/trademarks/apply",
+    "teas_plus_standard_retired": "2025-01-18",
+    "color_claim": false,
+    "translation": null,
+    "significance_statement": null,
+    "disclaimer": null,
+    "prior_registrations": [],
+    "combined_with_sideshot": false
+  },
+  "classes": [
+    {
+      "international_class": "008",
+      "label": "Hand tools",
+      "id_manual_only": true,
+      "identification": "Hand tools, namely, punches; Hand-operated cutting tools; Can openers, non-electric",
+      "character_count": 83,
+      "nice_refs": ["080169 can openers, non-electric"],
+      "do_not_use_freeform": [
+        "hand tools for puncturing beverage cans",
+        "shotgun tool",
+        "SafeShot multi-tool"
+      ]
+    },
+    {
+      "international_class": "021",
+      "label": "Household utensils — bottle openers",
+      "id_manual_only": true,
+      "identification": "Bottle openers, electric and non-electric",
+      "character_count": 41,
+      "nice_refs": ["210048 bottle openers, electric and non-electric"]
+    }
+  ],
+  "forbidden_classes": ["005", "006", "007", "025", "032", "033"],
+  "forbidden_goods_language": [
+    "beer",
+    "ale",
+    "malt",
+    "shotgun",
+    "Class 32",
+    "target hangers"
+  ],
+  "owner": {
+    "status": "UNCONFIRMED_DEFAULT_INDIVIDUAL",
+    "preferred": "operating_entity_that_will_sell",
+    "fallback": "Joseph Taylor, individual, then assign into LLC when formed",
+    "recommended_until_entity_exists": "Joseph Taylor, individual",
+    "applicant_emails": [
+      "josephlamartaylor@gmail.com",
+      "josephlamartaylor@icloud.com"
+    ],
+    "confirmed_legal_name": null,
+    "entity_type": null,
+    "state_of_organization": null,
+    "domicile_address": null,
+    "do_not_file_as": [
+      "LvlxLtd",
+      "Sideshot Surveying LLC (Mount Dora FL — unrelated)",
+      "SIDESHOT Beer Co. (trade name only — no SOS record found 2026-08-27)"
+    ],
+    "hunt_2026_08_27": {
+      "gmail_formation_or_uspto": "none",
+      "drive_formation_docs": "none",
+      "public_sos_sideshot_beer_or_safeshot_llc": "none"
+    }
+  },
+  "fees_usd": {
+    "per_class_base": 350,
+    "class_count": 2,
+    "uspto_total": 700,
+    "freeform_id_surcharge_if_violated": 200,
+    "insufficient_information_surcharge_per_class": 100
+  },
+  "neighbors": [
+    {
+      "mark": "SAFESHOT",
+      "serial": "97037634",
+      "registration": "8061021",
+      "owner": "Precision Steel Targets, LLC",
+      "class": "006",
+      "goods": "Metal hangers for shooting targets",
+      "status": "live_registered",
+      "tsdr": "https://tsdr.uspto.gov/#caseNumber=97037634&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "tsdr_registration": "https://tsdr.uspto.gov/#caseNumber=8061021&caseSearchType=US_REGISTRATION&caseType=DEFAULT&searchType=statusSearch",
+      "instruction": "Different goods. Do not enter Class 6."
+    },
+    {
+      "mark": "SURE SHOT",
+      "serial": "98831421",
+      "registration": null,
+      "owner": "Safety Shot, Inc.",
+      "class": "005",
+      "goods": "Dietary and nutritional supplements; liquid RTD supplements",
+      "status": "live_pending_allowed_principal_2026-08-20",
+      "tsdr": "https://tsdr.uspto.gov/#caseNumber=98831421&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "instruction": "Keep SAFESHOT off beer COLAs and off Class 32. Watch for Class 32 expansion."
+    }
+  ],
+  "serial_number": null,
+  "tsdr_after_filing": null,
+  "success_criteria": "serial_number + TSDR link posted on SMI-210"
+}
