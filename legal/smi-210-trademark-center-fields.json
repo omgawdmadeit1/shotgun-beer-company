@@ -54,13 +54,28 @@
     "target hangers"
   ],
   "owner": {
-    "status": "UNCONFIRMED",
+    "status": "UNCONFIRMED_DEFAULT_INDIVIDUAL",
     "preferred": "operating_entity_that_will_sell",
     "fallback": "Joseph Taylor, individual, then assign into LLC when formed",
+    "recommended_until_entity_exists": "Joseph Taylor, individual",
+    "applicant_emails": [
+      "josephlamartaylor@gmail.com",
+      "josephlamartaylor@icloud.com"
+    ],
     "confirmed_legal_name": null,
     "entity_type": null,
     "state_of_organization": null,
-    "domicile_address": null
+    "domicile_address": null,
+    "do_not_file_as": [
+      "LvlxLtd",
+      "Sideshot Surveying LLC (Mount Dora FL — unrelated)",
+      "SIDESHOT Beer Co. (trade name only — no SOS record found 2026-08-27)"
+    ],
+    "hunt_2026_08_27": {
+      "gmail_formation_or_uspto": "none",
+      "drive_formation_docs": "none",
+      "public_sos_sideshot_beer_or_safeshot_llc": "none"
+    }
   },
   "fees_usd": {
     "per_class_base": 350,

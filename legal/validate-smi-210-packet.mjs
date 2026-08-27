@@ -61,6 +61,11 @@ for (const n of fields.neighbors) {
 
 check(fields.serial_number === null, "packet must not invent a serial number");
 check(fields.tsdr_after_filing === null, "packet must not invent a post-filing TSDR");
+check(fields.owner.confirmed_legal_name === null, "must not invent a confirmed entity name");
+check(
+  fields.owner.do_not_file_as.some((s) => s.includes("LvlxLtd")),
+  "must bar LvlxLtd as owner"
+);
 
 for (const text of [packet, email]) {
   check(/Class(?:es)?\s+\*\*008 \+ 021|\*\*8 and 21|\*\*008 \+ 021|Classes 8 \+ 21|Classes:\s+8 and 21|008 \+ 021 only/i.test(text) || text.includes("8 + 21") || text.includes("8 and 21"), "doc must state Classes 8 + 21");

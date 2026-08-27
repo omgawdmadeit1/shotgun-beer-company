@@ -39,9 +39,11 @@ Wrong owner is expensive. Confirm in writing, then file.
 | **A — Operating entity (preferred)** | LLC / corp that will sell the SafeShot tool exists and is in good standing. Use that exact legal name, entity type, state of organization, and domicile address. |
 | **B — Founder individual** | No entity yet. File in Joseph Taylor’s legal name as an individual. Assign into the LLC the week it is formed. |
 
-**As of 2026-08-27:** no SIDESHOT Beer Co. / SafeShot operating entity is on file in this workspace. Default is **Option B** unless Joseph replies with Option A details.
+**Hunt 2026-08-27 (Gmail, Drive, public SOS):** no SIDESHOT Beer / SafeShot LLC, no formation emails, no USPTO or counsel threads. Florida **Sideshot Surveying LLC** (Mount Dora) is a different person — do not use. Do **not** file in **LvlxLtd** (unrelated Printify wall-art shop).
 
-Do **not** file in a DBA, a brand name, or a personal name if a company already owns the product. Correspondent and attorney of record = retained counsel.
+**Default until Joseph overrides:** **Option B — Joseph Taylor, individual.** Contact emails on file: `josephlamartaylor@gmail.com` / `josephlamartaylor@icloud.com`. Domicile address still required from Joseph (do not invent). Assign into the LLC the week it is formed.
+
+Do **not** file in a DBA or brand name. Correspondent and attorney of record = retained counsel.
 
 ---
 

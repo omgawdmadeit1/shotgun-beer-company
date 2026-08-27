@@ -18,7 +18,7 @@ Please file a **new** USPTO Trademark Center application, same engagement as the
 - Class 8: `Hand tools, namely, punches; Hand-operated cutting tools; Can openers, non-electric`
 - Class 21: `Bottle openers, electric and non-electric`
 
-**Owner:** [JOSEPH TO CONFIRM — operating entity legal name **or** Joseph Taylor, individual]
+**Owner (default until Joseph overrides):** Joseph Taylor, individual. Contact: josephlamartaylor@gmail.com. Domicile address TBD from applicant. If an LLC exists, use that exact legal name instead and ignore this default. Do not file as LvlxLtd or Sideshot Surveying LLC.
 
 **Hard limits**
 
