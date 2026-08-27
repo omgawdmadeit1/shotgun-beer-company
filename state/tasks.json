@@ -3,7 +3,7 @@
   "description": "SIDESHOT Beer Co. – Full brand development, product line, and launch (digital-first). Side Quest secondary language. Continuous Brand & Creative Agent cycle.",
   "dispatch_version": "005",
   "created": "2026-08-19T20:47:00-04:00",
-  "updated": "2026-08-24T09:20:00-04:00",
+  "updated": "2026-08-27T06:30:00-04:00",
   "status": "active_cycle",
   "agents": {
     "DISPATCH": "Intake, decomposition, task graph, state management, Linear/GitHub coordination. Nothing moves without DISPATCH entry.",
@@ -58,20 +58,43 @@
       "title": "Final synthesis of one concrete recommendation",
       "description": "Grok writes the single best recommendation on behalf of the team, incorporating all inputs.",
       "assignee": "Grok",
-      "status": "in_progress",
+      "status": "completed",
       "dependencies": ["T030", "T031"],
-      "priority": "critical"
+      "priority": "critical",
+      "completed_at": "2026-08-27T06:30:00-04:00",
+      "output": "T030 Pillar Badge held. SMI-150 locks tee/hat/koozie via Printify instead. Badge revisits after Phase 1 SKUs sell."
     },
     {
       "id": "T033",
       "title": "Update state/tasks.json with final statuses",
       "description": "DISPATCH closes the graph after Grok deliverable.",
       "assignee": "DISPATCH",
-      "status": "pending",
+      "status": "completed",
       "dependencies": ["T032"],
+      "priority": "medium",
+      "completed_at": "2026-08-27T06:30:00-04:00"
+    },
+    {
+      "id": "T034",
+      "title": "Lock Phase 1 Printify merch SKU list (SMI-150)",
+      "description": "Stand up 2-3 merch SKUs (tee, hat, koozie) as a PrintifyOperator packet. Do not publish. Do not block SafeShot. Do not reuse LvlxLtd wall-art shop.",
+      "assignee": "Grok",
+      "status": "completed",
+      "dependencies": [],
+      "priority": "high",
+      "completed_at": "2026-08-27T06:30:00-04:00",
+      "output": "SS-TEE-01 Bella+Canvas 3001 bp 12 / SS-HAT-01 Yupoong 6245CM bp 1447 / SS-KOO-01 Can Cooler bp 951. Catalog + validator in merch/printify/."
+    },
+    {
+      "id": "T035",
+      "title": "PrintifyOperator publish after gates",
+      "description": "Publish SS-TEE-01 / SS-HAT-01 / SS-KOO-01 only after SMI-145 waitlist, SMI-148 SafeShot path, dedicated SIDESHOT shop, and SMI-151 art (or approved placeholder).",
+      "assignee": "PrintifyOperator",
+      "status": "blocked",
+      "dependencies": ["T034"],
       "priority": "medium"
     }
   ],
   "prior_cycle": "T021-T027 (2026-08-23) — Ritual Kit concept; evolved today into Pillar Badge for cleaner Phase-1 execution",
-  "notes": "Nothing moves without DISPATCH entry. Canonical repo: https://github.com/omgawdmadeit1/shotgun-beer-company. Live site: https://sideshot-beer.vercel.app. Linear SIDESHOT auth currently failing via mcp.porteden.com. Current cycle focus: Explicitly name and physicalize the four pillars via a single collectible badge/patch asset while protecting Side Quest as dominant secondary language. Authorized for Grok final synthesis."
+  "notes": "Nothing moves without DISPATCH entry. Canonical repo: https://github.com/omgawdmadeit1/shotgun-beer-company. Live site: https://sideshot-beer.vercel.app. SMI-150 Phase 1 merch SKU list locked in merch/printify/ — do not publish, do not reuse LvlxLtd wall-art shop, do not block SafeShot. Pillar Badge (T030) held until tee/hat/koozie sell."
 }

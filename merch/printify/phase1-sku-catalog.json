@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "issue": "SMI-150",
+  "brand": "SIDESHOT",
+  "secondary_language": "Side Quest",
+  "locked_at": "2026-08-27",
+  "status": "sku_list_locked_do_not_publish",
+  "publish_blocked": true,
+  "do_not_block": ["SafeShot", "SMI-145", "SMI-147", "SMI-148", "SMI-153"],
+  "publish_gates": [
+    "SMI-145 real waitlist is live on sideshot-beer.vercel.app (no alert() fake capture)",
+    "SMI-148 SafeShot product page or waitlist path is moving",
+    "Dedicated SIDESHOT Printify shop exists (not LvlxLtd wall-art shop)",
+    "Brand art landed (SMI-151) or Joseph approved placeholder wordmark",
+    "PrintifyOperator publishes only after the gates above"
+  ],
+  "do_not_use_shops": [
+    {
+      "id": 20002621,
+      "title": "LvlxLtd",
+      "reason": "251 live wall-art posters. Unrelated. SMI-151: do not reuse this Printify work."
+    },
+    {
+      "id": 27582906,
+      "title": "My Shopify Store",
+      "reason": "Empty generic Shopify channel. Not a SIDESHOT shop."
+    }
+  ],
+  "catalog_verified_at": "2026-08-27T10:20:00Z",
+  "catalog_source": "Printify Catalog API (live read, no products created)",
+  "brand_system": {
+    "pillars": ["Ready", "Ritual", "Quest", "Responsibility"],
+    "background": "#000000",
+    "accent": ["#FF2D2D", "#FF8A00"],
+    "type_on_dark": "#FFFFFF",
+    "age_gate": "21+ only. Drink responsibly. Never force consumption."
+  },
+  "compliance_footer": "21+ only. Drink responsibly. Never force consumption. Shotgunning is for adults who choose it. This merch does not contain alcohol. SIDESHOT / Side Quest are used as brand language; trademark filing is tracked on SMI-144.",
+  "skus": [
+    {
+      "sku": "SS-TEE-01",
+      "role": "hero apparel",
+      "title": "SIDESHOT Side Quest Tee",
+      "listing_title": "SIDESHOT Side Quest Tee — 21+ Beer Brand Merch",
+      "product_type": "tee",
+      "blueprint_id": 12,
+      "blueprint_title": "Unisex Jersey Short Sleeve Tee",
+      "blank_brand": "Bella+Canvas",
+      "blank_model": "3001",
+      "printify_catalog_url": "https://printify.com/app/products/12/bellacanvas/unisex-jersey-short-sleeve-tee",
+      "preferred_print_provider_id": 99,
+      "preferred_print_provider": "Printify Choice",
+      "preferred_print_provider_location": "Miami, FL, US",
+      "fallback_print_provider_id": 39,
+      "fallback_print_provider": "SwiftPOD",
+      "decoration_method": "dtg",
+      "enabled_colors": ["Black"],
+      "optional_second_color": "Black Heather",
+      "enabled_sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "hold_sizes": ["XS", "4XL", "5XL"],
+      "hold_sizes_reason": "Launch lean. Enable after first 25 paid tees if size requests appear.",
+      "enabled_variant_ids": [18100, 18101, 18102, 18103, 18104, 18105],
+      "hold_variant_ids": [18099, 18106, 101666],
+      "optional_black_heather_variant_ids": [38824, 38782, 38785, 38788, 38791, 38794, 38797],
+      "print_areas": [
+        {
+          "position": "front",
+          "decoration_method": "dtg",
+          "provider_px": { "width": 2767, "height": 3362 },
+          "art_spec": "Upload 4500x5400 PNG @ 300dpi, transparent background. Center chest. Wordmark SIDESHOT in white. Underline: Start the Side Quest in #FF2D2D. No photoreal can art until SMI-151 lands."
+        },
+        {
+          "position": "back",
+          "decoration_method": "dtg",
+          "provider_px": { "width": 2767, "height": 3362 },
+          "required": false,
+          "art_spec": "Optional small lower-back lockup: 21+ / Drink responsibly. Keep it quiet. Do not put SafeShot tool art on merch until CAD/photos exist."
+        }
+      ],
+      "retail_price_usd": {
+        "S": 32.0,
+        "M": 32.0,
+        "L": 32.0,
+        "XL": 32.0,
+        "2XL": 34.0,
+        "3XL": 36.0
+      },
+      "printify_price_cents": {
+        "18100": 3200,
+        "18101": 3200,
+        "18102": 3200,
+        "18103": 3200,
+        "18104": 3400,
+        "18105": 3600
+      },
+      "planning_cogs_usd": {
+        "print_band": [14.0, 18.0],
+        "us_ship_first_item": 3.99,
+        "us_ship_additional": 2.09,
+        "note": "Printify Choice catalog variants do not return unit print cost on the public variants endpoint. Confirm live print cost in the editor at publish. Shipping verified 2026-08-27: US first $3.99 / addl $2.09 (economy profile)."
+      },
+      "target_gross_margin_after_ship": 0.4,
+      "description": "Every can is a Side Quest. Wear the code.\n\nBlack Bella+Canvas 3001 retail-fit tee. Front lockup: SIDESHOT + Start the Side Quest.\n\nThis is brand merch, not a beer shipment. 21+ only. Drink responsibly. Never force consumption.\n\nSafeShot tool + branded cans stay the revenue path. This tee does not delay them.",
+      "tags": ["SIDESHOT", "Side Quest", "21+", "beer merch", "tailgate"]
+    },
+    {
+      "sku": "SS-HAT-01",
+      "role": "ritual accessory",
+      "title": "SIDESHOT Side Quest Dad Cap",
+      "listing_title": "SIDESHOT Side Quest Dad Cap — Embroidered 21+",
+      "product_type": "hat",
+      "blueprint_id": 1447,
+      "blueprint_title": "Classic Dad Cap",
+      "blank_brand": "Yupoong",
+      "blank_model": "6245CM",
+      "printify_catalog_url": "https://printify.com/app/products/1447/yupoong/classic-dad-cap",
+      "preferred_print_provider_id": 99,
+      "preferred_print_provider": "Printify Choice",
+      "preferred_print_provider_location": "Miami, FL, US",
+      "fallback_print_provider_id": 410,
+      "fallback_print_provider": "Printful",
+      "decoration_method": "embroidery",
+      "enabled_colors": ["Black"],
+      "enabled_sizes": ["One size"],
+      "enabled_variant_ids": [105372],
+      "hold_variant_ids": [105373, 105377, 105381],
+      "hold_colors_reason": "Black only at launch. Navy / Dark Grey / White are catalog-ready if black embroidery contrast fails.",
+      "print_areas": [
+        {
+          "position": "front",
+          "decoration_method": "embroidery",
+          "provider_px": { "width": 1200, "height": 675 },
+          "art_spec": "Simple SIDESHOT wordmark, max 2 thread colors (white + #FF2D2D or nearest red). No gradients, no photos, no 21+ microtype on the front. Embroidery digitizes poorly below ~0.25 in letter height."
+        },
+        {
+          "position": "back_hat_embroidery",
+          "decoration_method": "embroidery",
+          "provider_px": { "width": 600, "height": 300 },
+          "required": false,
+          "art_spec": "Optional 21+ only. Skip if stitch quality looks cheap."
+        }
+      ],
+      "retail_price_usd": { "One size": 30.0 },
+      "printify_price_cents": { "105372": 3000 },
+      "planning_cogs_usd": {
+        "print_band": [15.0, 21.0],
+        "us_ship_first_item": 4.49,
+        "us_ship_additional": 2.09,
+        "public_catalog_from_eur": 18.23,
+        "note": "Public catalog 2026-08-27: embroidery from EUR 18.23 (EUR 13.48 Printify Premium). Shipping verified: US first $4.49 / addl $2.09. Recheck USD print cost in editor at publish."
+      },
+      "target_gross_margin_after_ship": 0.28,
+      "description": "Unstructured black dad cap. Front embroidery: SIDESHOT.\n\nBuilt for tailgates, parking lots, and the Side Quest in between.\n\n21+ only. Drink responsibly. Never force consumption. Merch only — no alcohol in this package.",
+      "tags": ["SIDESHOT", "Side Quest", "dad hat", "21+", "embroidery"]
+    },
+    {
+      "sku": "SS-KOO-01",
+      "role": "low-AOV ritual object",
+      "title": "SIDESHOT Side Quest Can Cooler",
+      "listing_title": "SIDESHOT Can Cooler (Koozie) — Regular 12oz — 21+",
+      "product_type": "koozie",
+      "blueprint_id": 951,
+      "blueprint_title": "Can Cooler",
+      "blank_brand": "Generic brand",
+      "blank_model": "",
+      "printify_catalog_url": "https://printify.com/app/products/951/generic-brand/can-cooler",
+      "preferred_print_provider_id": 92,
+      "preferred_print_provider": "Pic The Gift",
+      "preferred_print_provider_location": "Saint Louis, MO, US",
+      "fallback_print_provider_id": null,
+      "fallback_print_provider": null,
+      "decoration_method": "dye-sublimation",
+      "enabled_colors": [],
+      "enabled_sizes": ["Regular Can"],
+      "enabled_variant_ids": [78460],
+      "hold_variant_ids": [78461],
+      "hold_sizes_reason": "Slim Can is catalog-ready. Hold until we sell 12oz branded cans; Regular Can matches Phase 1 standard 12oz.",
+      "print_areas": [
+        {
+          "position": "front",
+          "decoration_method": "dye-sublimation",
+          "provider_px": { "width": 1425, "height": 3300 },
+          "art_spec": "Edge-to-edge wrap. Black field, red-orange SIDESHOT lockup, Start the Side Quest, small 21+ on the seam. Fits standard 12oz cans (3.5 x 4.3 in). Polyester face / foam liner."
+        }
+      ],
+      "retail_price_usd": { "Regular Can": 16.0 },
+      "printify_price_cents": { "78460": 1600 },
+      "planning_cogs_usd": {
+        "print_band": [4.0, 5.0],
+        "us_ship_first_item": 5.39,
+        "us_ship_additional": 0.89,
+        "public_catalog_from_eur": 3.93,
+        "note": "Standalone first-item US shipping ($5.39) eats margin. Prefer cart add-on / bundle with tee or future SafeShot. Additional koozies ship $0.89. Public catalog 2026-08-27: from EUR 3.93 (EUR 2.85 Premium)."
+      },
+      "target_gross_margin_after_ship": 0.35,
+      "standalone_margin_warning": "First-item US ship $5.39 + ~$4.50 print ≈ $9.90 COGS vs $16 retail (~38% before fees). Do not discount below $14 standalone.",
+      "description": "Keep the 12oz cold. Keep the Side Quest moving.\n\nAll-over SIDESHOT can cooler for a standard 12oz can. Soft foam liner. Not for children.\n\n21+ only. Drink responsibly. Never force consumption.",
+      "tags": ["SIDESHOT", "Side Quest", "koozie", "can cooler", "21+"]
+    }
+  ],
+  "held_concepts": [
+    {
+      "name": "Side Quest Pillar Badge",
+      "source": "Brand cycle T030 (2026-08-24)",
+      "why_held": "Embroidered patch / vinyl sticker is a strong collectible, but it is not tee/hat/koozie and SMI-150 asked for those three blanks. Revisit after Phase 1 SKUs sell."
+    },
+    {
+      "name": "Comfort Colors 1717 tee",
+      "blueprint_id": 706,
+      "why_held": "Better garment-dyed black if 3001 DTG looks thin. Do not split the tee SKU at launch."
+    }
+  ],
+  "operator_notes": {
+    "printify_operator": "Create products as drafts in a new SIDESHOT shop only. Do not publish. Do not write into shop 20002621 or 27582906.",
+    "create_product_endpoint": "POST /v1/shops/{shop_id}/products.json",
+    "publish_endpoint": "POST /v1/shops/{shop_id}/products/{product_id}/publish.json",
+    "publish_payload": {
+      "title": true,
+      "description": true,
+      "images": true,
+      "variants": true,
+      "tags": true,
+      "keyFeatures": true,
+      "shipping_template": true
+    },
+    "image_upload_endpoint": "POST /v1/uploads/images.json",
+    "sales_channel": "Prefer Printify pop-up / storefront or Shopify SIDESHOT shop. Do not attach merch checkout to the SafeShot waitlist CTA.",
+    "site_rule": "Live site source is not this repo. /shop currently 404s. Merch page ships only after SMI-149 (Vercel+GitHub) and must sit below SafeShot."
+  }
+}
