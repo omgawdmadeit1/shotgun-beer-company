@@ -6,7 +6,9 @@
 
 Owner default until Joseph overrides: **Joseph Taylor, individual** (then assign into an LLC). Address still required from Joseph. Do not file as LvlxLtd or Sideshot Surveying LLC.
 
-Send them: this file + `legal/smi-209-210-combined-counsel-send.md` + both packets + `legal/smi-144-trademark-patent-clearance.md`.
+**HOLD.** Do not email or call these firms until Joseph drops a filing address and says **send Pelton**, **send Gerben**, or **send LegalForce**.
+
+Send them: this file + `legal/smi-209-210-combined-counsel-send.md` + both packets + `legal/smi-144-trademark-patent-clearance.md`. SMI-209 packet lives on [PR #2](https://github.com/omgawdmadeit1/shotgun-beer-company/pull/2). Do not redo the [sideshot-beer#2](https://github.com/omgawdmadeit1/sideshot-beer/pull/2) ™ pass.
 
 ---
 

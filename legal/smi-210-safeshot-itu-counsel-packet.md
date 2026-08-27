@@ -201,7 +201,7 @@ No live SAFESHOT found in Classes **8, 21, 25, or 32**.
 
 3. Only then mark SMI-210 **Done**.
 4. ITU timeline: office action window → publication → opposition (30 days) → notice of allowance → **statement of use** (6 months, extendable to 36). Specimen = a real SafeShot unit sold or transported in commerce (SMI-148), **not** a CAD render.
-5. Common-law: put **SafeShot™** on the live site now (sideshot-beer.vercel.app / SMI-148). Keep it off the beer COLA.
+5. Common-law: **SafeShot™** already shipped on [sideshot-beer#2](https://github.com/omgawdmadeit1/sideshot-beer/pull/2). Do not redo that site pass. Live URL updates after [SMI-203](https://linear.app/smileing-goats/issue/SMI-203/founder-attach-omgawdmadeit1sideshot-beer-to-existing-vercel-project). Keep SAFESHOT off the beer COLA.
 
 ---
 

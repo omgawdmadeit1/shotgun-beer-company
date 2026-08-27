@@ -1,5 +1,7 @@
 # Combined counsel send — SIDESHOT + SAFESHOT ITUs (same day, two apps)
 
+**HOLD — do not email this until Joseph replies with a filing address and “send Pelton” / “send Gerben” / “send LegalForce”.**
+
 **From:** Joseph Taylor  
 **To:** [counsel — see `legal/smi-210-counsel-shortlist.md`]  
 **Date:** 2026-08-27
@@ -11,8 +13,10 @@ Please file **two** USPTO Trademark Center applications the same day. Do not com
 - Standard character **SIDESHOT**, §1(b)
 - Class 32 ID Manual: Beer; Ale; Lager; Stout; Porter; Craft beer; Malt liquor
 - Class 25 ID Manual: T-shirts; Hats; Hooded sweatshirts; Baseball caps
-- Packet: `legal/smi-209-sideshot-itu-filing-packet.md`
+- Packet: `legal/smi-209-sideshot-itu-filing-packet.md` ([shotgun-beer-company#2](https://github.com/omgawdmadeit1/shotgun-beer-company/pull/2))
+- Machine IDs: `legal/smi-209-sideshot-itu-ids.json` (sister branch `cursor/sideshot-itu-packet-5510`)
 - **Do not** file SIDE QUEST in Class 32/33 (SN 99944596, RN 5017598)
+- Site ™ already shipped on [sideshot-beer#2](https://github.com/omgawdmadeit1/sideshot-beer/pull/2). Live deploy waits on SMI-203. Do not redo that pass.
 
 ## Application B — SAFESHOT (Linear SMI-210)
 
@@ -29,7 +33,7 @@ Please file **two** USPTO Trademark Center applications the same day. Do not com
 ## Attach
 
 1. `legal/smi-144-trademark-patent-clearance.md`
-2. `legal/smi-209-sideshot-itu-filing-packet.md`
+2. `legal/smi-209-sideshot-itu-filing-packet.md` + `legal/smi-209-sideshot-itu-ids.json`
 3. `legal/smi-210-safeshot-itu-counsel-packet.md`
 4. `legal/smi-210-trademark-center-fields.json`
 

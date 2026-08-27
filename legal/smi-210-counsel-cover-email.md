@@ -1,9 +1,11 @@
 # Counsel cover email — file SAFESHOT ITU (SMI-210)
 
+**HOLD — do not send until Joseph replies with a filing address and “send Pelton” / “send Gerben” / “send LegalForce”.** Prefer the combined sheet `legal/smi-209-210-combined-counsel-send.md` so both ITUs go the same day.
+
 **To:** retained U.S. trademark counsel  
 **From:** Joseph Taylor / SIDESHOT Beer Co.  
 **Re:** File standard-character SAFESHOT, §1(b), Classes 8 + 21 only  
-**Attach:** `legal/smi-210-safeshot-itu-counsel-packet.md`, `legal/smi-210-trademark-center-fields.json`, `legal/smi-144-trademark-patent-clearance.md`
+**Attach:** `legal/smi-209-210-combined-counsel-send.md`, `legal/smi-210-safeshot-itu-counsel-packet.md`, `legal/smi-210-trademark-center-fields.json`, `legal/smi-144-trademark-patent-clearance.md`, plus the SMI-209 packet from [PR #2](https://github.com/omgawdmadeit1/shotgun-beer-company/pull/2)
 
 ---
 
