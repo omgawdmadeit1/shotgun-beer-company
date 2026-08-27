@@ -3,7 +3,7 @@
 **Date:** 2026-08-27  
 **Issue:** [SMI-210](https://linear.app/smileing-goats/issue/SMI-210/file-safeshot-itu-classes-8-21-tool-only)  
 **Parent clearance:** [SMI-144](https://linear.app/smileing-goats/issue/SMI-144/trademark-search-and-filing-strategy-for-sideshot-safeshot) · `legal/smi-144-trademark-patent-clearance.md`  
-**Sister filing:** [SMI-209](https://linear.app/smileing-goats/issue/SMI-209/file-sideshot-itu-classes-32-25) SIDESHOT Classes 32 + 25 (same counsel, **separate** application)  
+**Sister filing:** [SMI-209](https://linear.app/smileing-goats/issue/SMI-209/file-sideshot-itu-classes-32-25) SIDESHOT Classes 32 + 25 (same counsel, **separate** application). Sister packet: `legal/smi-209-sideshot-itu-filing-packet.md` on `cursor/sideshot-itu-packet-5510`. Combined send: `legal/smi-209-210-combined-counsel-send.md`. Shortlist: `legal/smi-210-counsel-shortlist.md`.  
 **Success for this ticket:** USPTO serial number + TSDR link. Those do not exist until counsel files and pays.
 
 This packet is ready for Trademark Center. It is **not** a filed application. Agents cannot sign a declaration, pay USPTO fees, or appear as counsel. Joseph / retained trademark counsel must file.
