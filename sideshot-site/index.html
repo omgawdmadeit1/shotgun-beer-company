@@ -172,6 +172,7 @@
             "ok"
           );
           form.reset();
+          submit.disabled = false;
         } catch (_err) {
           setStatus("Could not reach the waitlist. Check your connection and try again.", "err");
           submit.disabled = false;
